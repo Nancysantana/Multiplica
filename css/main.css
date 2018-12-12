@@ -1,0 +1,117 @@
+/* variables de colores */
+/* variables letras */
+/* variables de margen */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #fff; }
+
+button {
+  border: none;
+  display: inline-block;
+  font-family: Roboto;
+  text-decoration: none;
+  padding: 0.6em 0.8em; }
+
+p {
+  color: #898989;
+  font-family: Montserrat; }
+
+.accesibilidad {
+  color: #E6884C;
+  font-weight: bold;
+  font-size: 1rem; }
+  .accesibilidad .regalo {
+    margin-right: 5px; }
+
+.sumar {
+  margin-left: 5px; }
+
+.bttn-new {
+  color: #ffffff;
+  background-color: #4095CC;
+  border-radius: 5px;
+  margin: 3em 2em; }
+
+.modelo {
+  color: #4A4A4A;
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: Roboto; }
+
+.aviso {
+  color: #02b0ef;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 20px 0px; }
+
+.bttn-64, .bttn-128 {
+  color: #4A4A4A;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 7px; }
+  .bttn-64:hover, .bttn-128:hover {
+    background-color: #DCF3FB;
+    border: 1px solid #DCF3FB;
+    color: #4095CC; }
+
+.capacidad {
+  color: #4180BE; }
+
+.mt {
+  margin-top: 3em; }
+
+.opciones {
+  color: #062C5F;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 1.5em 0em 1em 0em; }
+
+.select {
+  color: #062C5F;
+  font-weight: bold;
+  font-size: 1.2em; }
+
+.select-amigo {
+  border: 0.5px solid #898989;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 1rem; }
+  .select-amigo:hover {
+    border: none;
+    border: 2px solid #4095CC;
+    background-color: #DCF3FB; }
+
+.custom-control-label {
+  color: #999999;
+  font-weight: bold;
+  font-size: 1.2em; }
+  .custom-control-label:hover {
+    color: #062C5F;
+    font-weight: bold; }
+
+.txt-plan {
+  color: #999999;
+  font-size: 0.8em; }
+  .txt-plan:hover {
+    color: #4180BE;
+    font-weight: bold; }
+
+.sel-num {
+  border: 2px solid #062C5F;
+  border-radius: 50px;
+  diplay: block;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 2px;
+  heigth: 100px;
+  line-height: 28px;
+  margin-right: 10px;
+  width: 35px; }
+
+/*# sourceMappingURL=main.css.map */

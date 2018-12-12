@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplica</title>
+    <meta name="twitter:"  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row"> 
+            <!-- sección uno -->
+            <div class="offset-md-1 col-sm-12 col-md-3 col-lg-3">
+              <!-- button nuevo -->
+               <div class="row">
+                  <button class="bttn-new" type="button">Nuevo</button>
+                </div>
+                <!-- row carrucel -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="assets/images/novanegro1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/novanegro2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/novanegro2.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/novanegro2.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+                <!-- row información modelo -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row text-center">
+                      <p class="">Huawei | PAR-LX9</p>
+                    </div>
+                    <div class="row">
+                      <p class="modelo">Nova 3</p>
+                    </div>
+                    <div class="row">
+                      <p class="">Accesisibilidad: <i class="fas fa-deaf"></i> <i class="fas fa-wheelchair"></i> <i class="far fa-eye-slash"></i></p>
+                    </div>
+                    <div class="row">
+                      <p class="accesibilidad"><i class="fas fa-gift regalo"></i> incluye audífonos de regalo <i class="far fa-plus-square sumar"></i></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Segunda sección -->
+            <div class="offset-md-1 col-xs-12 col-sm-12 col-md-6 col-lg-7 ">
+              <div class="row">
+                <h2 class="opciones">Opciones de compra</h2>
+              </div>
+              <div class="row">
+                <h5 class="select"><span class="sel-num">1</span>Selecciona color y capacidad</h5>   
+              </div>
+              
+              <!-- botones de capacidad -->
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="color">Color: <strong class="capacidad">Negro</strong></p>
+                  <button type="button" id="color-btn" class="color-btn">
+                    <i class="fas fa-bullseye"></i>
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <p class="color">Capacidad: <strong class="capacidad">64 GB</strong></p>
+                  <button type="button" class="bttn-64">64 GB</button>
+                  <button type="button" class="bttn-128">128 GB</button>
+                  <i class="far fa-plus-square"></i>
+                </div>
+              </div>
+              <!-- texto aviso -->
+              <div class="row">
+                <p class="aviso">*los colores pueden variar dependiendo de la Marca</p>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h5 class="select"><span class="sel-num">2</span>Selecciona el esquema de cobro Amigo de tu preferencia, sin renta fija ni contratos</h5> 
+                </div>
+              </div>
+              <!-- plan amigo -->
+              <div class="row">
+                <div class="col-ms-6 col-md-12">
+                  <div class="custom-control custom-radio select-amigo">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Amigo sin Límite</label>
+                    <p class="txt-plan">Minutos y SMS ilimitados + Faceboock y Twitter</p>
+                  </div>
+                </div>
+                <div class="col-ms-6 col-md-12">
+                  <div class="custom-control custom-radio select-amigo">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">Amigo Óptimo plus sin fronteras</label>
+                    <p class="txt-plan">Adiós al Roaming y larga distancia en EUA y Canadá</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+          <!-- Inicia carrucel -->
+          <!-- <div class="row">
+            <div class="col-md-12">
+              
+            </div>  
+          </div> -->
+        <!--Termina carousel-->
+
+          
+         
+
+    
+          
+            
+         <!--  <div class="row">         
+            <div class="col-sm-6">
+              <p class="color">Color: <strong class="capacidad">Negro</strong></p>
+
+              <button type="button" id="color-btn" class="color-btn">
+                <i class="fas fa-bullseye"></i>
+              </button>
+            </div>
+            <div class="col-sm-6">
+              <p class="color">Capacidad: <strong class="capacidad">64 GB</strong></p>
+              <button type="button" class="bttn-64">64 GB</button>
+              <button type="button" class="bttn-128">128 GB</button>
+              <i class="far fa-plus-square"></i>
+            </div>
+          </div>
+          <p class="aviso">*los colores pueden variar dependiendo de la Marca</p>
+          <h5 class="select"><span class="sel-num">2</span>Selecciona el esquema de cobro Amigo de tu preferencia, sin renta fija ni contratos</h5>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="custom-control custom-radio select-amigo">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Amigo sin Límite</label>
+                <p class="txt-plan">Minutos y SMS ilimitados + Faceboock y Twitter</p>
+              </div>
+              <div class="custom-control custom-radio select-amigo">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Amigo Óptimo plus sin fronteras</label>
+                <p class="txt-plan">Adiós al Roaming y larga distancia en EUA y Canadá</p>
+              </div>
+            </div>
+          </div> -->
+       
+  
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
