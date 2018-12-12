@@ -12,15 +12,34 @@
 		// border: 1px solid $gris2
 		border-radius: $border-radius
 		margin: 0px 7px
+		width: 25%
 		&:hover
 			background-color: $azul1
 			// border: none
 			border: 1px solid $azul1
 			color: $azul-bttn
 
-
 .capacidad
 	color: $azul3
+
+.color 
+	display: block
+	@media only screen and (max-width: 992px) 
+	display: inline-block
+
+
+.color-btn
+	border-radius: 50px
+	heigth: 10px
+	width: 5px
+
+.custom-control-label
+	color: $gris-tx-amigo
+	font-weight: bold
+	font-size: 1.2em
+	&:hover
+		color: $azul2
+		font-weight: bold
 
 .mt
 	margin-top: $mrt
@@ -49,14 +68,22 @@
 		border: 2px solid $azul-bttn
 		background-color: $azul1
 
-.custom-control-label
-	color: $gris-tx-amigo
+
+
+.sel-num
+	border: 2px solid $azul2
+	border-radius: $border-radius2
+	display: block 
+	font-size: 20px
 	font-weight: bold
-	font-size: 1.2em
-	&:hover
-		color: $azul2
-		font-weight: bold
-		
+	float: left
+	padding-left: 10px
+	height: 36px
+	line-height: 28px
+	margin-right: 10px
+	width: 36px
+
+
 .txt-plan
 	color: $gris-tx-amigo
 	font-size: .8em	
@@ -67,19 +94,7 @@
 			
 	
 	
-.sel-num
-	border: 2px solid $azul2
-	border-radius: $border-radius2
-	diplay: block 
-	font-size: 20px
-	font-weight: bold
-	float: left
-	padding: 2px
-	heigth: 100px
-	line-height: 28px
-	margin-right: 10px
-	// text-aline: center
-	width: 35px
+
 
 
 
