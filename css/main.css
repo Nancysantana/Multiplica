@@ -33,8 +33,10 @@ p {
   color: #ffffff;
   background-color: #4095CC;
   border-radius: 5px;
+  font-size: 1em;
   margin: 3em 2em;
-  width: 70%; }
+  padding: 8px;
+  width: 50%; }
 
 .modelo {
   color: #4A4A4A;
